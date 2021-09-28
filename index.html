@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Background</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body id="gradient">
+    <h1>Background Generator</h1>
+    <div class="wrapper">
+      <input class="color1" type="color" name="color1" value="#4dbf21" />
+      <button id="switch-btn">Switch</button>
+      <input class="color2" type="color" name="color2" value="#9d7ced" />
+    </div>
+    <h2>Current CSS Background</h2>
+    <div class="container info-section">
+      <h3>CSS:</h3>
+      <h3 id="linear-gradient">
+        linear-gradient(to right, rgb(77, 191, 33), rgb(157, 124, 237));
+      </h3>
+      <button id="linear-gradient-btn">Copy</button>
+      <h3>RGB:</h3>
+      <h3 id="rgb">rgb(77, 191, 33), rgb(157, 124, 237)</h3>
+      <button id="rgb-btn">Copy</button>
+      <h3>HEX:</h3>
+      <h3 id="hex">#4dbf21, #7e4fee</h3>
+      <button id="hex-btn">Copy</button>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
