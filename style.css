@@ -1,0 +1,75 @@
+body {
+  font: "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  top: 15%;
+  background: linear-gradient(to right, #4dbf21, #7e4fee); /* Standard syntax */
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 30px;
+}
+
+#switch-btn {
+  margin-top: auto;
+  text-align: center;
+}
+
+input {
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  gap: 50px;
+}
+
+.info-section {
+  grid-template-columns: 100px 500px 65px;
+  grid-template-rows: repeat(3, 100px);
+  align-items: start;
+}
+
+button {
+  margin-top: 80px;
+  width: 65px;
+  height: 40px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+h1 {
+  font: 600 3.5em "Raleway", sans-serif;
+  font-size: 4em;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  width: 100%;
+}
+
+h2 {
+  padding-top: 50px;
+  font: 600 2.5em "Raleway", sans-serif;
+}
+
+h3 {
+  font: 900 1.5em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 80px;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
+.wrapper button {
+  padding-top: 8px;
+}
+ 
